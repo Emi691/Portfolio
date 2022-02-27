@@ -1,6 +1,6 @@
-import "./about.scss"
+import './about.scss'
 
-export default function Contact() {
+export default function About() {
     return (
         <div>
             about
