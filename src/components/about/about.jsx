@@ -1,3 +1,4 @@
+import "./about.scss"
 
 export default function Contact() {
     return (
