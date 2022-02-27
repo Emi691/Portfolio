@@ -1,3 +1,4 @@
+import "./social.scss"
 
 export default function social() {
     return (
