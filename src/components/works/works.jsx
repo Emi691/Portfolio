@@ -2,7 +2,7 @@ import './works.scss'
 
 export default function works() {
     return (
-        <div>
+        <div className='works'>
             works
         </div>
     );
