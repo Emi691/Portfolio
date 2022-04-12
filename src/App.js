@@ -1,13 +1,17 @@
 import './App.css';
-import about from './components/about/about'
-import contact from './components/contact/contact'
-import intro from './components/intro/intro'
-import works from './components/works/works'
+import About from './components/about/about'
+import Contact from './components/contact/contact'
+import Intro from './components/intro/intro'
+import Works from './components/works/works'
 
 function App() {
   return (
     <div className="App">
       hello world
+      <Intro/>
+      <About/>
+      <Works/>
+      <Contact/>
     </div>
   );
 }
