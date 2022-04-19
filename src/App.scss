@@ -6,6 +6,10 @@
         height: 100%;
         position: relative;
         scroll-snap-type: y mandatory;
+        scrollbar-width: none;
+        &::-webkit-scrollbar{
+            display: none;
+        }
 
         > *{
             width: 100%;
