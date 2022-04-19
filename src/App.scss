@@ -2,14 +2,14 @@
     height: 100vh;
     width: 100%;
     .components{
-        background-color: red;
         width: 100%;
-        height: 100vh;
+        height: 100%;
+        position: relative;
         scroll-snap-type: y mandatory;
 
         > *{
-            width: 100vw;
-            height: 100vh;
+            width: 100%;
+            height: 100%;
             scroll-snap-align: start;
         }
     }
