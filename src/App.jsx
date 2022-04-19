@@ -7,11 +7,12 @@ import Works from './components/works/works'
 function App() {
   return (
     <div className="App">
-      hello world
-      <Intro/>
-      <About/>
-      <Works/>
-      <Contact/>
+      <div className="components">
+        <Intro/>
+        <About/>
+        <Works/>
+        <Contact/>
+      </div>
     </div>
   );
 }
