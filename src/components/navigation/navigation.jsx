@@ -5,7 +5,7 @@ export default function Navigation(props) {
         <div className='nav'>
             <div className='wrapper'>
                 <div className='left'>
-                    <a href='#intro'>Click me!</a>
+                    <a href='#intro' className='logo'>e</a>
                 </div>
                 <div className='right'>
                     right
