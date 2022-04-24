@@ -8,5 +8,14 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
+
+        .left {
+            .logo {
+                font-family: 'Poiret One', cursive;
+                font-size: 50px;
+                font-weight: bold;
+                text-decoration: none;
+            }
+        }
     }
 }
