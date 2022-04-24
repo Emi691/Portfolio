@@ -23,6 +23,16 @@
 
         .right {
             display: flex;
+            
+            .l1 {
+                width: 100%;
+                height: 2px;
+            }
+
+            .l2 {
+                width: 100%;
+                height: 2px;
+            }
         }
     }
 }
