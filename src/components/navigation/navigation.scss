@@ -26,8 +26,9 @@
                 display: flex;
                 flex-direction: column;
                 justify-content: space-around;
+                align-items: flex-end;
                 width: 25px;
-                height: 25px;
+                height: 20px;
 
                 .l1 {
                     background-color: indigo;
@@ -37,7 +38,7 @@
 
                 .l2 {
                     background-color: indigo;
-                    width: 100%;
+                    width: 75%;
                     height: 2px;
                 }
             }
