@@ -25,10 +25,10 @@
             .dropdown {
                 display: flex;
                 flex-direction: column;
-                justify-content: space-around;
+                justify-content: space-between;
                 align-items: flex-end;
                 width: 25px;
-                height: 20px;
+                height: 15px;
                 cursor: pointer;
 
                 .l1 {
@@ -48,14 +48,12 @@
                 }
 
                 &.active {
-                    justify-content: space-between;
-                
                     .l1{ 
+                        width: 75%;
                         transform: rotate(-45deg);
                     }
 
                     .l2 {
-                        width: 100%;
                         transform: rotate(45deg) ;
                     }
                 }
