@@ -1,6 +1,8 @@
 import './navigation.scss'
+import {useState} from 'react'
 
 export default function Navigation(props) {
+    const [active, setActive] = useState(true)
     return (
         <div className='nav'>
             <div className='wrapper'>
@@ -8,7 +10,7 @@ export default function Navigation(props) {
                     <a href='#intro' className='logo'>e</a>
                 </div>
                 <div className='right'>
-                    <div className='dropdown active'>
+                    <div className={`dropdown + ${active === true ? 'active' : ''}`}>
                         <span className='l1'></span>
                         <span className='l2'></span>
                     </div>
