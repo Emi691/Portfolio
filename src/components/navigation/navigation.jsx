@@ -10,7 +10,7 @@ export default function Navigation(props) {
                     <a href='#intro' className='logo'>e</a>
                 </div>
                 <div className='right'>
-                    <div className={`dropdown + ${active === true ? 'active' : ''}`}>
+                    <div className={`dropdown + ${active === true ? 'active' : ''}`} onClick={() => setActive(!active)}>
                         <span className='l1'></span>
                         <span className='l2'></span>
                     </div>
