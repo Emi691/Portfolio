@@ -8,7 +8,7 @@ export default function Navigation(props) {
                     <a href='#intro' className='logo'>e</a>
                 </div>
                 <div className='right'>
-                    <div className='dropdown'>
+                    <div className='dropdown active'>
                         <span className='l1'></span>
                         <span className='l2'></span>
                     </div>
