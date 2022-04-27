@@ -1,8 +1,8 @@
 import './side.scss'
 
-export default function side() {
+export default function side({active, setActive}) {
     return (
-        <div className='side' id='side'>
+        <div className={`side + ${active === true ? 'active' : ''}`} id='side'>
             <ul>
                 <li>
                     <a href='#intro'>Home</a>

@@ -8,11 +8,11 @@ import Intro from './components/intro/intro';
 import Works from './components/works/works';
 
 function App() {
-  const [sidebar, setSidebar] = useState(true)
+  const [active, setActive] = useState(true)
   return (
     <div className="App">
-      <Navigation active={sidebar} setActive={setSidebar}/>
-      <Side/>
+      <Navigation active={active} setActive={setActive}/>
+      <Side active={active} setActive={setActive}/>
       <div className="components">
         <Intro/>
         <About/>
