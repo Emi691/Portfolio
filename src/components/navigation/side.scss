@@ -1,12 +1,17 @@
 .side {
-    background-color: transparent;
+    background-color: pink;
     height: 100vh;
     width: 250px;
     position: fixed;
     right: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
+    display: none;
     z-index: 1;
+    transition: all 1s ease;
+
+    &.active {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
 }
