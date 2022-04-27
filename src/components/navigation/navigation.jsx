@@ -1,5 +1,4 @@
 import './navigation.scss'
-import {useState} from 'react'
 
 export default function Navigation({active, setActive}) {
     return (
