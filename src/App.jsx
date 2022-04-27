@@ -11,7 +11,7 @@ function App() {
   const [sidebar, setSidebar] = useState(true)
   return (
     <div className="App">
-      <Navigation/>
+      <Navigation active={sidebar} setActive={setSidebar}/>
       <Side/>
       <div className="components">
         <Intro/>

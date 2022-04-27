@@ -1,8 +1,7 @@
 import './navigation.scss'
 import {useState} from 'react'
 
-export default function Navigation(props) {
-    const [active, setActive] = useState(true)
+export default function Navigation({active, setActive}) {
     return (
         <div className='nav'>
             <div className='wrapper'>
