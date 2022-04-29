@@ -13,7 +13,7 @@ function App() {
     <div className="App">
       <Navigation active={active} setActive={setActive}/>
       <Side active={active} setActive={setActive}/>
-      <div className="components">
+      <div className={`components + ${active === true ? 'active' : ''}`}>
         <Intro/>
         <About/>
         <Works/>
