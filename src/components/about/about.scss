@@ -1,5 +1,9 @@
 .about {
     background-color: #F76C6C;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     img {
         height: 50%;
         width: auto;
