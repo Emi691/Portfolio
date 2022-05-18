@@ -2,7 +2,7 @@
     background-color: #F76C6C;
     display: flex;
     .me {  
-        flex: 0.5;
+        flex: 0.4;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -14,11 +14,15 @@
         }
     }
     .hi {
-        flex: 0.5;
+        flex: 0.6;
         display: flex;
         flex-direction: column;
         justify-content: center;
-        align-items: center;
-        color: #05052f; 
+        align-items: left;
+        color: #05052f;
+        
+        p{
+            width: 95%;
+        }
     }
 }
